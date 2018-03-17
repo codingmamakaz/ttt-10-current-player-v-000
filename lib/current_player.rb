@@ -4,7 +4,7 @@ def turn_count(board)
     if board[counter] == 0
     counter += 1
   else
-    puts counterß
+    puts counter
     end
 
   end
