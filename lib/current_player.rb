@@ -1,12 +1,10 @@
 def turn_count(board)
   counter = 0
-  board.each do |numberofturns|
-    puts "#{counter}"
-    if numberofturns == (" "||"")
+  board.each do |turns|
+    if (turns == "X")||(turns == "O")
     counter += 1
-  else
-    
+    else
     end
-
   end
+  puts counter
 end
