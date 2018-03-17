@@ -4,7 +4,7 @@ def turn_count(board)
     if turn.length == 0
     counter += 1
   else
-    puts "#{counter}"
+    puts board[turn]
     end
   end
 end
