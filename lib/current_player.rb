@@ -4,7 +4,7 @@ def turn_count(board)
     if turn == (" " || "")
     counter += 1
   else
-    puts counter
+    puts "#{counter}"
   end
   end
 end
