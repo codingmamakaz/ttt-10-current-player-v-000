@@ -5,9 +5,3 @@ def turn_count(board)
     counter +=
   end
 end
-
-
-# counter = 0
-# board.each do|turn|
-#   if turn > 0 && turn < 9
-#     counter +=
