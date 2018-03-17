@@ -3,7 +3,7 @@ def turn_count(board)
   board.each do|number|
     puts counter
     counter +=
-  end
+  
 end
 
 
