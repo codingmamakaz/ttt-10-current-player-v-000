@@ -1,7 +1,7 @@
 def turn_count(board)
   counter = 0
   board.each do |numberofturns|
-    if board[counter] == 0
+    if board.length == 0
     counter += 1
   else
     puts counter
